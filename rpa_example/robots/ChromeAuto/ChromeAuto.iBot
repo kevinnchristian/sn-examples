@@ -1,0 +1,1386 @@
+<?xml version="1.0"?>
+<AutxProcess xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AutxRpaProcess">
+  <ID>c32c5f81-d37d-4faf-a1ef-5ed81eb7a4dc</ID>
+  <RuntimeID />
+  <References>
+    <AutxPluginReference>
+      <ID>183b5b9d-a980-48e2-b370-c4654255e2e8</ID>
+      <PluginID>0dd60979-221f-4f1d-8982-f41791d63066</PluginID>
+      <Name>Internet Explorer</Name>
+      <Version>9.0</Version>
+      <Signature>8C202F48E6146D25009CFE9202D4D84672E71493190C39E58EC7FF9C058007CB</Signature>
+    </AutxPluginReference>
+    <AutxPluginReference>
+      <ID>811fc37b-700d-4caa-a296-d4831ef92b13</ID>
+      <PluginID>293745f8-12ea-4a86-be5f-8cea9576f0b5</PluginID>
+      <Name>Essential Toolkit</Name>
+      <Version>9.1</Version>
+      <Signature>32EFEBCC987BC2EA161A0B1AF0007B394E7FFED5EF871413A44180274E6DF471</Signature>
+    </AutxPluginReference>
+    <AutxPluginReference>
+      <ID>de7bfb72-0e96-4cb9-8761-249d18373f68</ID>
+      <PluginID>a2d55069-f2ef-458d-bb23-c054f97512c7</PluginID>
+      <Name>Universal App Connector</Name>
+      <Version>6.1</Version>
+      <Signature>85E14E34C82095501D6F48B60F67D54FEA6E81E17603097C343C1EE7B1D64D38</Signature>
+    </AutxPluginReference>
+    <AutxPluginReference>
+      <ID>55127c51-3ad3-4b8e-9b01-ad256735e7df</ID>
+      <PluginID>be36a04a-b045-46f7-ac32-dbcfc0ca7377</PluginID>
+      <Name>Essential Connectors</Name>
+      <Version>9.0</Version>
+      <Signature>400267D0DCC056300A6505EDE88E805C7A40E6FB6318D0018E249D5E0370AC22</Signature>
+    </AutxPluginReference>
+  </References>
+  <UserPlugins />
+  <Activities>
+    <AutxActivity>
+      <ID>c77db6e2-1d3f-416a-9d54-568c93718d83</ID>
+      <ParentID>c32c5f81-d37d-4faf-a1ef-5ed81eb7a4dc</ParentID>
+      <Items>
+        <DesignItem xsi:type="EntryPoint">
+          <ID>82d2fec0-4afc-4a5b-8e70-e708d91bbf0e</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <X>18.799999999999955</X>
+          <Y>96.600000000000023</Y>
+          <Width>0</Width>
+          <Height>0</Height>
+          <Order>5000</Order>
+          <CommentConnectionPort>
+            <ID>02494955-d09e-4d11-b77f-4a0a3f0b734b</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </CommentConnectionPort>
+          <BeforeDelay>0</BeforeDelay>
+          <AfterDelay>0</AfterDelay>
+          <BreakPoint>false</BreakPoint>
+          <OnErrorAction>Inherit</OnErrorAction>
+          <MaxRetries>1</MaxRetries>
+          <RetryDelay>0</RetryDelay>
+          <GoToFlagID />
+          <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+          <GoToFlagIDAfterRetry />
+          <EnableTimeout>false</EnableTimeout>
+          <Timeout>60</Timeout>
+          <IgnoreThis>false</IgnoreThis>
+          <Variables />
+          <Items />
+          <ControlOut>
+            <ID>1cb88573-06e0-48bd-89bf-788997a8e31c</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlOut>
+        </DesignItem>
+        <DesignItem xsi:type="ExitPoint">
+          <ID>3d5426e0-fbc0-43fa-a0b7-a693b7b2d953</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <X>1093.6000000000008</X>
+          <Y>97.999999999999943</Y>
+          <Width>0</Width>
+          <Height>0</Height>
+          <Order>5001</Order>
+          <CommentConnectionPort>
+            <ID>7491c660-9fe2-4811-9b6b-3f73ae66af7c</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </CommentConnectionPort>
+          <BeforeDelay>0</BeforeDelay>
+          <AfterDelay>0</AfterDelay>
+          <BreakPoint>false</BreakPoint>
+          <OnErrorAction>Inherit</OnErrorAction>
+          <MaxRetries>1</MaxRetries>
+          <RetryDelay>0</RetryDelay>
+          <GoToFlagID />
+          <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+          <GoToFlagIDAfterRetry />
+          <EnableTimeout>false</EnableTimeout>
+          <Timeout>60</Timeout>
+          <IgnoreThis>false</IgnoreThis>
+          <Variables />
+          <Items />
+          <ControlIn>
+            <ID>af35a4ce-c91d-4db4-83f4-d8e39d0a7590</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlIn>
+        </DesignItem>
+        <DesignItem xsi:type="AutxMethod">
+          <ID>50695e9c-5743-4e0a-a62e-6452b7f3303e</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <X>157.2</X>
+          <Y>96.200000000000045</Y>
+          <Width>0</Width>
+          <Height>0</Height>
+          <Order>5002</Order>
+          <CommentConnectionPort>
+            <ID>e6db325b-abb3-420f-a2c7-b708e226b12f</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </CommentConnectionPort>
+          <Name>Start</Name>
+          <BeforeDelay>0</BeforeDelay>
+          <AfterDelay>0</AfterDelay>
+          <BreakPoint>false</BreakPoint>
+          <OnErrorAction>Inherit</OnErrorAction>
+          <MaxRetries>1</MaxRetries>
+          <RetryDelay>0</RetryDelay>
+          <GoToFlagID />
+          <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+          <GoToFlagIDAfterRetry />
+          <EnableTimeout>false</EnableTimeout>
+          <Timeout>60</Timeout>
+          <IgnoreThis>false</IgnoreThis>
+          <ControlIn>
+            <ID>3ba5cb65-2db5-45b0-bf70-b1570012c9a0</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlIn>
+          <ControlOut>
+            <ID>fe62df7e-aca7-46ed-b727-b478bacd88ae</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlOut>
+          <ReturnDataPort>
+            <ID>52425856-d444-4290-b89f-7c2a0cc5df4b</ID>
+            <Name>Return</Name>
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+            <IsPortPropertiesShown>false</IsPortPropertiesShown>
+            <Validations />
+            <Type>
+              <ID>4fbdc8e7-6fc3-43ab-9e53-ce6f9db73790</ID>
+              <Name>Void</Name>
+              <FullName>System.Void</FullName>
+              <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+            </Type>
+            <IsTypeEditable>false</IsTypeEditable>
+            <IsNameEditable>false</IsNameEditable>
+            <IsValueEditable>true</IsValueEditable>
+            <ShowTypeLabel>true</ShowTypeLabel>
+            <ShowNameLabel>true</ShowNameLabel>
+            <DataSensitive>false</DataSensitive>
+            <ValueSourceType>Connection</ValueSourceType>
+            <AllowOverridePopup>true</AllowOverridePopup>
+            <EnableLogging>true</EnableLogging>
+          </ReturnDataPort>
+          <MethodName>Start</MethodName>
+          <ObjectID>f15c3197-a8dd-424e-b3ab-554384006934</ObjectID>
+          <ObjectRootParentID />
+          <ObjectComponentID />
+          <ShowDefaultControlOutPort>true</ShowDefaultControlOutPort>
+          <ObjectDocumentID />
+          <ObjectProcessID>c32c5f81-d37d-4faf-a1ef-5ed81eb7a4dc</ObjectProcessID>
+          <Params>
+            <AutxDataInPort>
+              <ID>f10759c9-1d24-41eb-9d04-14395417e5d2</ID>
+              <Name>AppType</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>true</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>00c8938c-60d3-43c8-84f0-fdb81fd8e533</ID>
+                <Name>ApplicationType</Name>
+                <FullName>UTL.RPA.CONNECTORS.UAC.UniversalApplication+ApplicationType</FullName>
+                <Assembly>UTL.RPA.CONNECTORS.UAC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>false</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Static</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <StaticValue>Chrome</StaticValue>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+            <AutxDataInPort>
+              <ID>30d65485-6737-4a7d-bc1c-565d7939db69</ID>
+              <Name>Path</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>160750d1-9f5e-4ee4-bf2c-9c99bdadc5e5</ID>
+                <Name>String</Name>
+                <FullName>System.String</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>true</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Connection</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <StaticValue />
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+            <AutxDataInPort>
+              <ID>3f31b9e9-451f-4286-833a-0b6aa4bce284</ID>
+              <Name>StartParams</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>32a65110-45d7-424b-b623-4b6554349821</ID>
+                <Name>String</Name>
+                <FullName>System.String</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>true</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Static</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <StaticValue>https://www.bcb.gov.br/estabilidadefinanceira/fechamentodolar</StaticValue>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+          </Params>
+          <OutParams />
+          <MEStatics />
+          <MEInputs />
+          <MEOutputs />
+          <MECtrlOutputs />
+        </DesignItem>
+        <DesignItem xsi:type="AutxControlConnection">
+          <ID>0eff2b17-846b-4341-8714-86161b66cce5</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <SourceComponentID>82d2fec0-4afc-4a5b-8e70-e708d91bbf0e</SourceComponentID>
+          <SourcePortID>1cb88573-06e0-48bd-89bf-788997a8e31c</SourcePortID>
+          <SinkComponentID>50695e9c-5743-4e0a-a62e-6452b7f3303e</SinkComponentID>
+          <SinkPortID>3ba5cb65-2db5-45b0-bf70-b1570012c9a0</SinkPortID>
+        </DesignItem>
+        <DesignItem xsi:type="AutxMethod">
+          <ID>3d393af4-dd06-4f79-b899-c0da68c33fef</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <X>295.39999999999986</X>
+          <Y>96</Y>
+          <Width>0</Width>
+          <Height>0</Height>
+          <Order>5004</Order>
+          <CommentConnectionPort>
+            <ID>cd8ec07e-110d-4d44-82e7-ce863a73c72d</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </CommentConnectionPort>
+          <Name>WaitForCreate</Name>
+          <BeforeDelay>0</BeforeDelay>
+          <AfterDelay>0</AfterDelay>
+          <BreakPoint>false</BreakPoint>
+          <OnErrorAction>Inherit</OnErrorAction>
+          <MaxRetries>1</MaxRetries>
+          <RetryDelay>0</RetryDelay>
+          <GoToFlagID />
+          <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+          <GoToFlagIDAfterRetry />
+          <EnableTimeout>false</EnableTimeout>
+          <Timeout>60</Timeout>
+          <IgnoreThis>false</IgnoreThis>
+          <ControlIn>
+            <ID>950b3d16-46d7-4892-ae8c-c2a133e81ae7</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlIn>
+          <ControlOut>
+            <ID>00196d13-e21a-456c-bb5c-43b604bf2fb8</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlOut>
+          <ReturnDataPort>
+            <ID>3b2f1e6d-99c0-41c1-acf8-1420233b27b1</ID>
+            <Name>Return</Name>
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+            <IsPortPropertiesShown>false</IsPortPropertiesShown>
+            <Validations />
+            <Type>
+              <ID>ee1d7f62-9b2c-4c54-a0ea-ddd298e23b08</ID>
+              <Name>Boolean</Name>
+              <FullName>System.Boolean</FullName>
+              <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+            </Type>
+            <IsTypeEditable>false</IsTypeEditable>
+            <IsNameEditable>false</IsNameEditable>
+            <IsValueEditable>true</IsValueEditable>
+            <ShowTypeLabel>true</ShowTypeLabel>
+            <ShowNameLabel>true</ShowNameLabel>
+            <DataSensitive>false</DataSensitive>
+            <ValueSourceType>Connection</ValueSourceType>
+            <AllowOverridePopup>true</AllowOverridePopup>
+            <EnableLogging>true</EnableLogging>
+          </ReturnDataPort>
+          <MethodName>WaitForCreate</MethodName>
+          <ObjectID>86669ae3-3477-4c9b-81f0-4bbd495a9ac2</ObjectID>
+          <ObjectRootParentID />
+          <ObjectComponentID />
+          <ShowDefaultControlOutPort>true</ShowDefaultControlOutPort>
+          <ObjectDocumentID />
+          <ObjectProcessID>c32c5f81-d37d-4faf-a1ef-5ed81eb7a4dc</ObjectProcessID>
+          <Params>
+            <AutxDataInPort>
+              <ID>e8f11635-c065-466b-8a59-d2f3667025d8</ID>
+              <Name>timeoutInSeconds</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>8f2fc7ed-efc8-4699-880d-df22926760e7</ID>
+                <Name>Int32</Name>
+                <FullName>System.Int32</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>true</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Static</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <StaticValue>5</StaticValue>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+            <AutxDataInPort>
+              <ID>903b1558-18d8-4d02-bd01-124520ff3fa0</ID>
+              <Name>MatchAllChildern</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>20a56db7-136e-4cea-b273-d59031e83550</ID>
+                <Name>Boolean</Name>
+                <FullName>System.Boolean</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>false</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Static</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <StaticValue>False</StaticValue>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+          </Params>
+          <OutParams />
+          <MEStatics />
+          <MEInputs />
+          <MEOutputs />
+          <MECtrlOutputs />
+        </DesignItem>
+        <DesignItem xsi:type="AutxControlConnection">
+          <ID>0b67b22b-2bce-49ba-a08b-57ffdb292d4a</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <SourceComponentID>50695e9c-5743-4e0a-a62e-6452b7f3303e</SourceComponentID>
+          <SourcePortID>fe62df7e-aca7-46ed-b727-b478bacd88ae</SourcePortID>
+          <SinkComponentID>3d393af4-dd06-4f79-b899-c0da68c33fef</SinkComponentID>
+          <SinkPortID>950b3d16-46d7-4892-ae8c-c2a133e81ae7</SinkPortID>
+        </DesignItem>
+        <DesignItem xsi:type="Decision">
+          <ID>bbeaf29a-0af3-4283-99da-2e6798bbc557</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <X>520.19999999999982</X>
+          <Y>95.800000000000068</Y>
+          <Width>0</Width>
+          <Height>0</Height>
+          <Order>5006</Order>
+          <CommentConnectionPort>
+            <ID>da58aed2-54b9-4c86-965a-4067fec50839</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </CommentConnectionPort>
+          <BeforeDelay>0</BeforeDelay>
+          <AfterDelay>0</AfterDelay>
+          <BreakPoint>false</BreakPoint>
+          <OnErrorAction>Inherit</OnErrorAction>
+          <MaxRetries>1</MaxRetries>
+          <RetryDelay>0</RetryDelay>
+          <GoToFlagID />
+          <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+          <GoToFlagIDAfterRetry />
+          <EnableTimeout>false</EnableTimeout>
+          <Timeout>60</Timeout>
+          <IgnoreThis>false</IgnoreThis>
+          <ControlIn>
+            <ID>0c799886-17db-43f3-87c4-655c822705c9</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlIn>
+          <ControlYes>
+            <ID>b5ba0ee2-42b0-4b53-b1e9-d7cf1d86dbc9</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlYes>
+          <ControlNo>
+            <ID>6fc503ea-8386-4a0b-98cb-74f519f689f0</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlNo>
+          <Items>
+            <AutxDataInPort>
+              <ID>0c7ab414-dd7f-44f6-954f-8d85a158c9d5</ID>
+              <Name>isLoad</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>085003f6-dd49-4b9f-bde3-50f035f87ee3</ID>
+                <Name>Object</Name>
+                <FullName>System.Object</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>true</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>true</IsValueEditable>
+              <ShowTypeLabel>false</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Connection</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+          </Items>
+          <ExpressionText>isLoad</ExpressionText>
+        </DesignItem>
+        <DesignItem xsi:type="AutxControlConnection">
+          <ID>8f2c60fa-6a2b-4aad-8ab6-5c9375956b32</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <SourceComponentID>3d393af4-dd06-4f79-b899-c0da68c33fef</SourceComponentID>
+          <SourcePortID>00196d13-e21a-456c-bb5c-43b604bf2fb8</SourcePortID>
+          <SinkComponentID>bbeaf29a-0af3-4283-99da-2e6798bbc557</SinkComponentID>
+          <SinkPortID>0c799886-17db-43f3-87c4-655c822705c9</SinkPortID>
+        </DesignItem>
+        <DesignItem xsi:type="AutxDataConnection">
+          <ID>30360caf-4fb5-45e8-8d38-0d5d61f19618</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <SourceComponentID>3d393af4-dd06-4f79-b899-c0da68c33fef</SourceComponentID>
+          <SourcePortID>3b2f1e6d-99c0-41c1-acf8-1420233b27b1</SourcePortID>
+          <SinkComponentID>bbeaf29a-0af3-4283-99da-2e6798bbc557</SinkComponentID>
+          <SinkPortID>0c7ab414-dd7f-44f6-954f-8d85a158c9d5</SinkPortID>
+        </DesignItem>
+        <DesignItem xsi:type="Terminate2">
+          <ID>8240c73c-25ba-431f-ab38-c87c8a2b139b</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <X>555.59999999999991</X>
+          <Y>231.20000000000005</Y>
+          <Width>0</Width>
+          <Height>0</Height>
+          <Order>5009</Order>
+          <CommentConnectionPort>
+            <ID>c2558877-05d4-45fc-aa98-c3004955f88f</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </CommentConnectionPort>
+          <BeforeDelay>0</BeforeDelay>
+          <AfterDelay>0</AfterDelay>
+          <BreakPoint>false</BreakPoint>
+          <OnErrorAction>Inherit</OnErrorAction>
+          <MaxRetries>1</MaxRetries>
+          <RetryDelay>0</RetryDelay>
+          <GoToFlagID />
+          <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+          <GoToFlagIDAfterRetry />
+          <EnableTimeout>false</EnableTimeout>
+          <Timeout>60</Timeout>
+          <IgnoreThis>false</IgnoreThis>
+          <ControlIn>
+            <ID>15dff7c2-dfe4-4815-b109-838c88ddb6e9</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlIn>
+          <MessagePort>
+            <ID>22f82d3a-3939-4307-86b9-7d7401751bce</ID>
+            <Name>Message</Name>
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+            <IsPortPropertiesShown>false</IsPortPropertiesShown>
+            <Validations />
+            <Type>
+              <ID>204adb6d-1286-4c6a-ae93-82e62db5362d</ID>
+              <Name>String</Name>
+              <FullName>System.String</FullName>
+              <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+            </Type>
+            <IsTypeEditable>false</IsTypeEditable>
+            <IsNameEditable>false</IsNameEditable>
+            <IsValueEditable>true</IsValueEditable>
+            <ShowTypeLabel>false</ShowTypeLabel>
+            <ShowNameLabel>true</ShowNameLabel>
+            <DataSensitive>false</DataSensitive>
+            <ValueSourceType>Static</ValueSourceType>
+            <AllowOverridePopup>true</AllowOverridePopup>
+            <StaticValue>Não foi possível recarregar a página.</StaticValue>
+            <EnableLogging>true</EnableLogging>
+          </MessagePort>
+          <MarkAsErrorPort>
+            <ID>df333177-bb36-42f7-887e-bf9cfcfc89fe</ID>
+            <Name>Mark As Error</Name>
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+            <IsPortPropertiesShown>false</IsPortPropertiesShown>
+            <Validations />
+            <Type>
+              <ID>39f0c7cc-4bd2-4d79-b5ef-e30b00690d89</ID>
+              <Name>Boolean</Name>
+              <FullName>System.Boolean</FullName>
+              <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+            </Type>
+            <IsTypeEditable>false</IsTypeEditable>
+            <IsNameEditable>false</IsNameEditable>
+            <IsValueEditable>true</IsValueEditable>
+            <ShowTypeLabel>false</ShowTypeLabel>
+            <ShowNameLabel>true</ShowNameLabel>
+            <DataSensitive>false</DataSensitive>
+            <ValueSourceType>Connection</ValueSourceType>
+            <AllowOverridePopup>true</AllowOverridePopup>
+            <EnableLogging>true</EnableLogging>
+          </MarkAsErrorPort>
+          <CaptureScreenPort>
+            <ID>5dfbec3f-eda9-448b-b692-7c8d9ece1bfb</ID>
+            <Name>Capture Screen</Name>
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+            <IsPortPropertiesShown>false</IsPortPropertiesShown>
+            <Validations />
+            <Type>
+              <ID>189c8f2e-1f8b-4e34-bac0-7d79d4b410de</ID>
+              <Name>Boolean</Name>
+              <FullName>System.Boolean</FullName>
+              <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+            </Type>
+            <IsTypeEditable>false</IsTypeEditable>
+            <IsNameEditable>false</IsNameEditable>
+            <IsValueEditable>true</IsValueEditable>
+            <ShowTypeLabel>false</ShowTypeLabel>
+            <ShowNameLabel>true</ShowNameLabel>
+            <DataSensitive>false</DataSensitive>
+            <ValueSourceType>Connection</ValueSourceType>
+            <AllowOverridePopup>true</AllowOverridePopup>
+            <EnableLogging>true</EnableLogging>
+          </CaptureScreenPort>
+        </DesignItem>
+        <DesignItem xsi:type="AutxControlConnection">
+          <ID>e25b270a-1fde-41d6-b7c0-fdb5a7ee3d26</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <SourceComponentID>bbeaf29a-0af3-4283-99da-2e6798bbc557</SourceComponentID>
+          <SourcePortID>6fc503ea-8386-4a0b-98cb-74f519f689f0</SourcePortID>
+          <SinkComponentID>8240c73c-25ba-431f-ab38-c87c8a2b139b</SinkComponentID>
+          <SinkPortID>15dff7c2-dfe4-4815-b109-838c88ddb6e9</SinkPortID>
+        </DesignItem>
+        <DesignItem xsi:type="AutxMethod">
+          <ID>78110336-3008-4eba-b498-80af71a0b7fb</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <X>670.59999999999991</X>
+          <Y>99.199999999999989</Y>
+          <Width>0</Width>
+          <Height>0</Height>
+          <Order>5015</Order>
+          <CommentConnectionPort>
+            <ID>54327bad-0f85-4388-80bb-c649e1ae0a46</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </CommentConnectionPort>
+          <Name>GetTable</Name>
+          <BeforeDelay>0</BeforeDelay>
+          <AfterDelay>0</AfterDelay>
+          <BreakPoint>false</BreakPoint>
+          <OnErrorAction>Inherit</OnErrorAction>
+          <MaxRetries>1</MaxRetries>
+          <RetryDelay>0</RetryDelay>
+          <GoToFlagID />
+          <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+          <GoToFlagIDAfterRetry />
+          <EnableTimeout>false</EnableTimeout>
+          <Timeout>60</Timeout>
+          <IgnoreThis>false</IgnoreThis>
+          <ControlIn>
+            <ID>32174d21-0d49-4495-9285-ef7312c54b42</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlIn>
+          <ControlOut>
+            <ID>5050ca2d-d84b-4a69-98cc-340b76b5cd38</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlOut>
+          <ReturnDataPort>
+            <ID>74e34889-9591-4379-95f0-5689281d9644</ID>
+            <Name>Return</Name>
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+            <IsPortPropertiesShown>false</IsPortPropertiesShown>
+            <Validations />
+            <Type>
+              <ID>15bb338e-c54b-4f78-a112-95c62db3bcea</ID>
+              <Name>DataTable</Name>
+              <FullName>System.Data.DataTable</FullName>
+              <Assembly>System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+            </Type>
+            <IsTypeEditable>false</IsTypeEditable>
+            <IsNameEditable>false</IsNameEditable>
+            <IsValueEditable>true</IsValueEditable>
+            <ShowTypeLabel>true</ShowTypeLabel>
+            <ShowNameLabel>true</ShowNameLabel>
+            <DataSensitive>false</DataSensitive>
+            <ValueSourceType>Connection</ValueSourceType>
+            <AllowOverridePopup>true</AllowOverridePopup>
+            <EnableLogging>true</EnableLogging>
+          </ReturnDataPort>
+          <MethodName>GetTable2</MethodName>
+          <ObjectID>2b42d7ae-7179-4537-a951-c6864a7e8da9</ObjectID>
+          <ObjectRootParentID />
+          <ShowDefaultControlOutPort>true</ShowDefaultControlOutPort>
+          <ObjectProcessID>c32c5f81-d37d-4faf-a1ef-5ed81eb7a4dc</ObjectProcessID>
+          <Params>
+            <AutxDataInPort>
+              <ID>b829e475-9536-47aa-a8b7-b7e700391eca</ID>
+              <Name>FirstRowHeader</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>true</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>0527a5b3-20dc-4d3c-a49f-91584e5019fc</ID>
+                <Name>Boolean</Name>
+                <FullName>System.Boolean</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>false</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Connection</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+          </Params>
+          <OutParams>
+            <AutxDataOutPort>
+              <ID>16c36f0a-8263-4e7a-a08d-89f2fd216602</ID>
+              <Name>RowsCount</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>6995d1e0-5b8e-4031-894a-6bf1a6709c0d</ID>
+                <Name>Int32</Name>
+                <FullName>System.Int32</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>true</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Connection</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataOutPort>
+          </OutParams>
+          <MEStatics />
+          <MEInputs />
+          <MEOutputs />
+          <MECtrlOutputs />
+        </DesignItem>
+        <DesignItem xsi:type="AutxControlConnection">
+          <ID>86d257fb-4cc2-45ff-a1a8-18b9ab959da2</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <SourceComponentID>bbeaf29a-0af3-4283-99da-2e6798bbc557</SourceComponentID>
+          <SourcePortID>b5ba0ee2-42b0-4b53-b1e9-d7cf1d86dbc9</SourcePortID>
+          <SinkComponentID>78110336-3008-4eba-b498-80af71a0b7fb</SinkComponentID>
+          <SinkPortID>32174d21-0d49-4495-9285-ef7312c54b42</SinkPortID>
+        </DesignItem>
+        <DesignItem xsi:type="AutxStaticMethod">
+          <ID>a0632d9a-809f-465d-ad8d-1fadb190d2f4</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <X>876.40000000000009</X>
+          <Y>98.599999999999966</Y>
+          <Width>0</Width>
+          <Height>0</Height>
+          <Order>5013</Order>
+          <CommentConnectionPort>
+            <ID>1746c733-b65b-4963-b13d-3d7710e2b281</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </CommentConnectionPort>
+          <Name>WriteToExcel</Name>
+          <BeforeDelay>0</BeforeDelay>
+          <AfterDelay>0</AfterDelay>
+          <BreakPoint>false</BreakPoint>
+          <OnErrorAction>Inherit</OnErrorAction>
+          <MaxRetries>1</MaxRetries>
+          <RetryDelay>0</RetryDelay>
+          <GoToFlagID />
+          <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+          <GoToFlagIDAfterRetry />
+          <EnableTimeout>false</EnableTimeout>
+          <Timeout>60</Timeout>
+          <IgnoreThis>false</IgnoreThis>
+          <ControlIn>
+            <ID>4e969e70-66ea-4ec3-a360-59c130d5b179</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlIn>
+          <ControlOut>
+            <ID>81a6c6d1-d80e-4d3f-85ba-938ca356a98b</ID>
+            <Name />
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+          </ControlOut>
+          <ReturnDataPort>
+            <ID>261f9c2b-3db4-4a49-a6f0-4e3fa8d27528</ID>
+            <Name>Return</Name>
+            <Visibility>true</Visibility>
+            <AllowDelete>true</AllowDelete>
+            <IsPortPropertiesShown>false</IsPortPropertiesShown>
+            <Validations />
+            <Type>
+              <ID>c23bd97b-4c84-4caa-a2dd-cdf26a20997d</ID>
+              <Name>Void</Name>
+              <FullName>System.Void</FullName>
+              <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+            </Type>
+            <IsTypeEditable>false</IsTypeEditable>
+            <IsNameEditable>false</IsNameEditable>
+            <IsValueEditable>true</IsValueEditable>
+            <ShowTypeLabel>true</ShowTypeLabel>
+            <ShowNameLabel>true</ShowNameLabel>
+            <DataSensitive>false</DataSensitive>
+            <ValueSourceType>Connection</ValueSourceType>
+            <AllowOverridePopup>true</AllowOverridePopup>
+            <EnableLogging>true</EnableLogging>
+          </ReturnDataPort>
+          <MethodName>WriteToExcel</MethodName>
+          <ClassName>Data Writer</ClassName>
+          <ClassType>
+            <ID>330a2a0b-3645-4f0f-85bd-e968ed1431b7</ID>
+            <Name>AutxDataWriter</Name>
+            <FullName>UTL.RPA.CONNECTORS.AutxDataWriter</FullName>
+            <Assembly>UTL.RPA.CONNECTORS, Version=1.0.3.0, Culture=neutral, PublicKeyToken=3560024ae975bbad</Assembly>
+          </ClassType>
+          <Image>/UTL.RPA.CONNECTORS;component/Resources/Images/DataWriter.png</Image>
+          <Params>
+            <AutxDataInPort>
+              <ID>7a9f71bd-af26-41a3-9ab8-25423b923589</ID>
+              <Name>Filepath</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>b264096b-2ee5-4cae-b0b6-cd3708b2b474</ID>
+                <Name>String</Name>
+                <FullName>System.String</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>true</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Static</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <StaticValue>C:\Users\Chris&amp;Lora\Desktop\Curso Kevin\BadgeCreator\Dolar.xlsx</StaticValue>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+            <AutxDataInPort>
+              <ID>5597a4c0-6ccd-449e-aed6-4f8ca5528344</ID>
+              <Name>SheetName</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>642da8f9-0ade-48ea-979d-3d2dda796c20</ID>
+                <Name>String</Name>
+                <FullName>System.String</FullName>
+                <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>true</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Static</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <StaticValue>Main</StaticValue>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+            <AutxDataInPort>
+              <ID>e4789f65-09b7-4b39-8b1f-b5de3a1b7537</ID>
+              <Name>Data</Name>
+              <Visibility>true</Visibility>
+              <AllowDelete>true</AllowDelete>
+              <IsPortPropertiesShown>false</IsPortPropertiesShown>
+              <Validations />
+              <Type>
+                <ID>f631b084-9141-4f7d-b355-32de1256bd57</ID>
+                <Name>DataTable</Name>
+                <FullName>System.Data.DataTable</FullName>
+                <Assembly>System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+              </Type>
+              <IsTypeEditable>false</IsTypeEditable>
+              <IsNameEditable>false</IsNameEditable>
+              <IsValueEditable>false</IsValueEditable>
+              <ShowTypeLabel>true</ShowTypeLabel>
+              <ShowNameLabel>true</ShowNameLabel>
+              <DataSensitive>false</DataSensitive>
+              <ValueSourceType>Connection</ValueSourceType>
+              <AllowOverridePopup>true</AllowOverridePopup>
+              <EnableLogging>true</EnableLogging>
+            </AutxDataInPort>
+          </Params>
+          <OutParams />
+          <MEStatics />
+          <MEInputs />
+          <MEOutputs />
+          <MECtrlOutputs />
+          <ShowDefaultControlOutPort>true</ShowDefaultControlOutPort>
+        </DesignItem>
+        <DesignItem xsi:type="AutxControlConnection">
+          <ID>86db1d10-aa2e-4e8a-ae25-300f3410d638</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <SourceComponentID>78110336-3008-4eba-b498-80af71a0b7fb</SourceComponentID>
+          <SourcePortID>5050ca2d-d84b-4a69-98cc-340b76b5cd38</SourcePortID>
+          <SinkComponentID>a0632d9a-809f-465d-ad8d-1fadb190d2f4</SinkComponentID>
+          <SinkPortID>4e969e70-66ea-4ec3-a360-59c130d5b179</SinkPortID>
+        </DesignItem>
+        <DesignItem xsi:type="AutxDataConnection">
+          <ID>eca26fd2-593f-4825-802b-e558d141a063</ID>
+          <ParentID>c77db6e2-1d3f-416a-9d54-568c93718d83</ParentID>
+          <SourceComponentID>78110336-3008-4eba-b498-80af71a0b7fb</SourceComponentID>
+          <SourcePortID>74e34889-9591-4379-95f0-5689281d9644</SourcePortID>
+          <SinkComponentID>a0632d9a-809f-465d-ad8d-1fadb190d2f4</SinkComponentID>
+          <SinkPortID>e4789f65-09b7-4b39-8b1f-b5de3a1b7537</SinkPortID>
+        </DesignItem>
+      </Items>
+      <Name>Main</Name>
+      <Variables />
+      <IsOpen>true</IsOpen>
+      <IsActive>true</IsActive>
+      <OnErrorAction>Stop</OnErrorAction>
+      <MaxRetries>1</MaxRetries>
+      <RetryDelay>0</RetryDelay>
+      <GoToFlagID />
+      <OnErrorActionAfterRetry>Inherit</OnErrorActionAfterRetry>
+      <GoToFlagIDAfterRetry />
+      <IsSelected>false</IsSelected>
+      <RootPath>Activities</RootPath>
+    </AutxActivity>
+  </Activities>
+  <Variables>
+    <AutxObject xsi:type="UTL.RPA.CONNECTORS.UAC.AutxUniversalApplication">
+      <ID>f15c3197-a8dd-424e-b3ab-554384006934</ID>
+      <Name>dolarHoje</Name>
+      <ProcessID>c32c5f81-d37d-4faf-a1ef-5ed81eb7a4dc</ProcessID>
+      <IsRemoteExecutionEnabled>false</IsRemoteExecutionEnabled>
+      <IsolationPlatform>x86</IsolationPlatform>
+      <IsolationSessionType>Current</IsolationSessionType>
+      <Items>
+        <AutxObject xsi:type="UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.AutxWebScreen">
+          <ID>86669ae3-3477-4c9b-81f0-4bbd495a9ac2</ID>
+          <Name>Fechamento diário do dólar</Name>
+          <IsRemoteExecutionEnabled>false</IsRemoteExecutionEnabled>
+          <IsolationPlatform>x86</IsolationPlatform>
+          <IsolationSessionType>Current</IsolationSessionType>
+          <Items>
+            <AutxObject xsi:type="UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.AutxHtmlTable">
+              <ID>2b42d7ae-7179-4537-a951-c6864a7e8da9</ID>
+              <Name>tablePrice</Name>
+              <IsRemoteExecutionEnabled>false</IsRemoteExecutionEnabled>
+              <IsolationPlatform>x86</IsolationPlatform>
+              <IsolationSessionType>Current</IsolationSessionType>
+              <Items />
+              <RootPath>Global Objects/dolarHoje/Fechamento diário do dólar</RootPath>
+              <Frames>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.AutxHtmlElement>
+                  <ID>f4c1d262-66de-4e92-a704-d9caf240ef45</ID>
+                  <Name>IFRAME</Name>
+                  <IsRemoteExecutionEnabled>false</IsRemoteExecutionEnabled>
+                  <IsolationPlatform>x86</IsolationPlatform>
+                  <IsolationSessionType>Current</IsolationSessionType>
+                  <Items />
+                  <RootPath />
+                  <Frames />
+                  <MatchRules />
+                  <JsMatchRules>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>de8404e6-577a-4e20-b0c4-c4ae0709a9f6</ID>
+                      <JID>de8404e6-577a-4e20-b0c4-c4ae0709a9f6</JID>
+                      <Type>Attribute</Type>
+                      <Name>width</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>100%</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>88903f44-528c-4b25-a247-d9010121aa47</ID>
+                      <JID>88903f44-528c-4b25-a247-d9010121aa47</JID>
+                      <Type>Attribute</Type>
+                      <Name>height</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>800px</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>f92a1dc1-a193-4583-9cd6-d15ce83bd320</ID>
+                      <JID>f92a1dc1-a193-4583-9cd6-d15ce83bd320</JID>
+                      <Type>Attribute</Type>
+                      <Name>frameborder</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>0</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>72e69f32-98d8-4994-84c7-155865c3a385</ID>
+                      <JID>72e69f32-98d8-4994-84c7-155865c3a385</JID>
+                      <Type>Attribute</Type>
+                      <Name>src</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>aff7fea3-03ed-4930-bf97-cdfd33f04e5d</ID>
+                      <JID>aff7fea3-03ed-4930-bf97-cdfd33f04e5d</JID>
+                      <Type>Property</Type>
+                      <Name>Index</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>0</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                  </JsMatchRules>
+                  <EnsureFound>false</EnsureFound>
+                  <CacheElement>false</CacheElement>
+                  <Locators>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>ec86cca3-ffc1-4c64-8f46-9c2682e87d2a</ID>
+                      <LocateBy>Id</LocateBy>
+                      <Value />
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>7d38b157-77a4-4456-a3b1-a5724f36bf32</ID>
+                      <LocateBy>Name</LocateBy>
+                      <Value />
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>654f95c0-195d-4184-958e-8dc09a7dd14a</ID>
+                      <LocateBy>CssSelector</LocateBy>
+                      <Value>html &gt; body &gt; app-root &gt; app-root &gt; div &gt; div &gt; main &gt; dynamic-comp &gt; div &gt; div &gt; iframe</Value>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>54c7efa6-54d1-4e53-8239-1f729b458ceb</ID>
+                      <LocateBy>TagName</LocateBy>
+                      <Value>IFRAME</Value>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>297f42fc-cc1b-42fa-bdc0-85ef9c31e42e</ID>
+                      <LocateBy>JavaScript</LocateBy>
+                      <Value>//Example returns element by Id 
+ return document.getElementById("ElementId")</Value>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>2546801f-88e3-4ceb-aa97-4d838ed1e374</ID>
+                      <LocateBy>XPath</LocateBy>
+                      <Value>/html/body/app-root/app-root/div/div/main/dynamic-comp/div/div/iframe</Value>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  </Locators>
+                  <Locator>
+                    <ID>654f95c0-195d-4184-958e-8dc09a7dd14a</ID>
+                    <LocateBy>CssSelector</LocateBy>
+                    <Value>html &gt; body &gt; app-root &gt; app-root &gt; div &gt; div &gt; main &gt; dynamic-comp &gt; div &gt; div &gt; iframe</Value>
+                  </Locator>
+                  <MatchCriteria>Equals</MatchCriteria>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.AutxHtmlElement>
+              </Frames>
+              <MatchRules />
+              <JsMatchRules>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                  <ID>1ef7ce2c-4cde-4b8b-bbea-2fb72b3a5be3</ID>
+                  <JID>1ef7ce2c-4cde-4b8b-bbea-2fb72b3a5be3</JID>
+                  <Type>Attribute</Type>
+                  <Name>cellspacing</Name>
+                  <Comparer>Equals</Comparer>
+                  <Value>1</Value>
+                  <IgnoreCase>true</IgnoreCase>
+                  <Escape>false</Escape>
+                  <Trim>false</Trim>
+                  <Enabled>false</Enabled>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                  <ID>a9e3d309-f0fa-4172-bd28-ca037e66a92a</ID>
+                  <JID>a9e3d309-f0fa-4172-bd28-ca037e66a92a</JID>
+                  <Type>Attribute</Type>
+                  <Name>summary</Name>
+                  <Comparer>Equals</Comparer>
+                  <Value>Cotação de fechamento do Dólar americano</Value>
+                  <IgnoreCase>true</IgnoreCase>
+                  <Escape>false</Escape>
+                  <Trim>false</Trim>
+                  <Enabled>false</Enabled>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                  <ID>760278a5-8cfe-4752-bda1-27c71974acf0</ID>
+                  <JID>760278a5-8cfe-4752-bda1-27c71974acf0</JID>
+                  <Type>Property</Type>
+                  <Name>Index</Name>
+                  <Comparer>Equals</Comparer>
+                  <Value>0</Value>
+                  <IgnoreCase>true</IgnoreCase>
+                  <Escape>false</Escape>
+                  <Trim>false</Trim>
+                  <Enabled>false</Enabled>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+              </JsMatchRules>
+              <EnsureFound>false</EnsureFound>
+              <CacheElement>false</CacheElement>
+              <Locators>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>976a5ef8-c60e-4202-a5c0-3285063d2612</ID>
+                  <LocateBy>Id</LocateBy>
+                  <Value />
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>d4d8f3c7-822d-4324-b872-08b29403d046</ID>
+                  <LocateBy>Name</LocateBy>
+                  <Value />
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>9b596a52-9a19-43f6-96fe-58ad33f9fccf</ID>
+                  <LocateBy>CssSelector</LocateBy>
+                  <Value>html &gt; body &gt; div:nth-of-type(2) &gt; table</Value>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>b374ee41-b9f4-4cad-8d33-64ff071df92a</ID>
+                  <LocateBy>TagName</LocateBy>
+                  <Value>TABLE</Value>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>9f65c45a-1721-4883-9715-dc3289fa211e</ID>
+                  <LocateBy>JavaScript</LocateBy>
+                  <Value>//Example returns element by Id 
+ return document.getElementById("ElementId")</Value>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>7de1d949-48eb-482a-bd5c-9098f372a95b</ID>
+                  <LocateBy>XPath</LocateBy>
+                  <Value>/html/body/div[2]/table</Value>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+              </Locators>
+              <Locator>
+                <ID>9b596a52-9a19-43f6-96fe-58ad33f9fccf</ID>
+                <LocateBy>CssSelector</LocateBy>
+                <Value>html &gt; body &gt; div:nth-of-type(2) &gt; table</Value>
+              </Locator>
+              <MatchCriteria>Equals</MatchCriteria>
+            </AutxObject>
+            <AutxObject xsi:type="UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.AutxHtmlElement">
+              <ID>af28beb7-55bb-4ffb-adca-47c6c1faee5f</ID>
+              <Name>data</Name>
+              <IsRemoteExecutionEnabled>false</IsRemoteExecutionEnabled>
+              <IsolationPlatform>x86</IsolationPlatform>
+              <IsolationSessionType>Current</IsolationSessionType>
+              <Items />
+              <RootPath>Global Objects/dolarHoje/Fechamento diário do dólar</RootPath>
+              <Frames>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.AutxHtmlElement>
+                  <ID>21ae2f41-f82d-4e76-92be-1196137309f2</ID>
+                  <Name>IFRAME</Name>
+                  <IsRemoteExecutionEnabled>false</IsRemoteExecutionEnabled>
+                  <IsolationPlatform>x86</IsolationPlatform>
+                  <IsolationSessionType>Current</IsolationSessionType>
+                  <Items />
+                  <RootPath />
+                  <Frames />
+                  <MatchRules />
+                  <JsMatchRules>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>31894a8d-eba3-46f8-901c-670b7e700716</ID>
+                      <JID>31894a8d-eba3-46f8-901c-670b7e700716</JID>
+                      <Type>Attribute</Type>
+                      <Name>width</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>100%</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>5a614f94-4e50-46e6-8840-1e0227403bdf</ID>
+                      <JID>5a614f94-4e50-46e6-8840-1e0227403bdf</JID>
+                      <Type>Attribute</Type>
+                      <Name>height</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>800px</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>5a30c521-fb8f-4cc4-8979-017c0a09b017</ID>
+                      <JID>5a30c521-fb8f-4cc4-8979-017c0a09b017</JID>
+                      <Type>Attribute</Type>
+                      <Name>frameborder</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>0</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>df47a742-5b68-4950-8fd0-a97196530e69</ID>
+                      <JID>df47a742-5b68-4950-8fd0-a97196530e69</JID>
+                      <Type>Attribute</Type>
+                      <Name>src</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>https://ptax.bcb.gov.br/ptax_internet/consultarUltimaCotacaoDolar.do</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                      <ID>dea450ff-7d5b-4019-b742-840dc3ed1cc0</ID>
+                      <JID>dea450ff-7d5b-4019-b742-840dc3ed1cc0</JID>
+                      <Type>Property</Type>
+                      <Name>Index</Name>
+                      <Comparer>Equals</Comparer>
+                      <Value>0</Value>
+                      <IgnoreCase>true</IgnoreCase>
+                      <Escape>false</Escape>
+                      <Trim>false</Trim>
+                      <Enabled>false</Enabled>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                  </JsMatchRules>
+                  <EnsureFound>false</EnsureFound>
+                  <CacheElement>false</CacheElement>
+                  <Locators>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>5bcf5dbe-e86d-4d9c-81b7-d74c664fc423</ID>
+                      <LocateBy>Id</LocateBy>
+                      <Value />
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>75fbd324-f8f2-4829-9ed7-ab4102136284</ID>
+                      <LocateBy>Name</LocateBy>
+                      <Value />
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>498c0dfe-146c-4760-835b-dc1d2aaa8c65</ID>
+                      <LocateBy>CssSelector</LocateBy>
+                      <Value>html &gt; body &gt; app-root &gt; app-root &gt; div &gt; div &gt; main &gt; dynamic-comp &gt; div &gt; div &gt; iframe</Value>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>ae9e6a44-2ca4-42d6-8ee4-bc7a0c1b4f4f</ID>
+                      <LocateBy>TagName</LocateBy>
+                      <Value>IFRAME</Value>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>26f82898-73e3-4673-9a8d-49feebdbc3c9</ID>
+                      <LocateBy>JavaScript</LocateBy>
+                      <Value>//Example returns element by Id 
+ return document.getElementById("ElementId")</Value>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                    <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                      <ID>fd8e2d76-93fd-4cab-bba8-5a2f36ff4e6b</ID>
+                      <LocateBy>XPath</LocateBy>
+                      <Value>/html/body/app-root/app-root/div/div/main/dynamic-comp/div/div/iframe</Value>
+                    </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  </Locators>
+                  <Locator>
+                    <ID>498c0dfe-146c-4760-835b-dc1d2aaa8c65</ID>
+                    <LocateBy>CssSelector</LocateBy>
+                    <Value>html &gt; body &gt; app-root &gt; app-root &gt; div &gt; div &gt; main &gt; dynamic-comp &gt; div &gt; div &gt; iframe</Value>
+                  </Locator>
+                  <MatchCriteria>Equals</MatchCriteria>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.AutxHtmlElement>
+              </Frames>
+              <MatchRules />
+              <JsMatchRules>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                  <ID>d58fea95-4da3-4983-a1b4-2f7a8e17448e</ID>
+                  <JID>d58fea95-4da3-4983-a1b4-2f7a8e17448e</JID>
+                  <Type>Attribute</Type>
+                  <Name>align</Name>
+                  <Comparer>Equals</Comparer>
+                  <Value>CENTER</Value>
+                  <IgnoreCase>true</IgnoreCase>
+                  <Escape>false</Escape>
+                  <Trim>false</Trim>
+                  <Enabled>false</Enabled>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+                  <ID>1ecec01e-d3a0-4cd1-b7c7-cf6c78fce710</ID>
+                  <JID>1ecec01e-d3a0-4cd1-b7c7-cf6c78fce710</JID>
+                  <Type>Property</Type>
+                  <Name>Index</Name>
+                  <Comparer>Equals</Comparer>
+                  <Value>0</Value>
+                  <IgnoreCase>true</IgnoreCase>
+                  <Escape>false</Escape>
+                  <Trim>false</Trim>
+                  <Enabled>false</Enabled>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.JSMatchRule>
+              </JsMatchRules>
+              <EnsureFound>false</EnsureFound>
+              <CacheElement>false</CacheElement>
+              <Locators>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>72fc18c6-fbf2-4ff9-8684-92ca30aa88c9</ID>
+                  <LocateBy>Id</LocateBy>
+                  <Value />
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>6ca70d62-58e9-4e39-9e0f-4459a5fa1951</ID>
+                  <LocateBy>Name</LocateBy>
+                  <Value />
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>6a70f25d-6c4c-4718-b982-109fbfae7939</ID>
+                  <LocateBy>CssSelector</LocateBy>
+                  <Value>html &gt; body &gt; div:nth-of-type(2) &gt; table &gt; tbody &gt; tr:nth-of-type(2) &gt; td</Value>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>a00440bb-7e56-4f20-97c8-f8ce383273c3</ID>
+                  <LocateBy>TagName</LocateBy>
+                  <Value>TD</Value>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>f0e11d98-2400-45d1-9d68-130a5922e686</ID>
+                  <LocateBy>JavaScript</LocateBy>
+                  <Value>//Example returns element by Id 
+ return document.getElementById("ElementId")</Value>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                <UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+                  <ID>fbedf4e5-969d-4116-aff0-24f9a9de3c46</ID>
+                  <LocateBy>XPath</LocateBy>
+                  <Value>/html/body/div[2]/table/tbody/tr[2]/td</Value>
+                </UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.Locator>
+              </Locators>
+              <Locator>
+                <ID>6a70f25d-6c4c-4718-b982-109fbfae7939</ID>
+                <LocateBy>CssSelector</LocateBy>
+                <Value>html &gt; body &gt; div:nth-of-type(2) &gt; table &gt; tbody &gt; tr:nth-of-type(2) &gt; td</Value>
+              </Locator>
+              <MatchCriteria>Equals</MatchCriteria>
+            </AutxObject>
+          </Items>
+          <RootPath>Global Objects/dolarHoje</RootPath>
+          <Frames />
+          <MatchRules>
+            <MatchRule xsi:type="UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.TitleMatchRule">
+              <ID>249d2cba-817d-4455-b971-8ec3c0cbf87e</ID>
+              <Enabled>false</Enabled>
+              <Comparer xsi:type="StringComparer">
+                <ComparisonValue>Fechamento diário do dólar</ComparisonValue>
+                <Type>Equals</Type>
+              </Comparer>
+            </MatchRule>
+            <MatchRule xsi:type="UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.UrlMatchRule">
+              <ID>8cea2873-f150-4568-b5ee-a0fc0e2dd026</ID>
+              <Enabled>true</Enabled>
+              <Comparer xsi:type="StringComparer">
+                <ComparisonValue>https://www.bcb.gov.br/estabilidadefinanceira/fechamentodolar</ComparisonValue>
+                <Type>Equals</Type>
+              </Comparer>
+            </MatchRule>
+            <MatchRule xsi:type="UTL.RPA.CONNECTORS.WEB.CHROMEBROWSER.IndexMatchRule">
+              <ID>cbd53b16-4443-4a7e-ba72-08cc061cbce4</ID>
+              <Enabled>false</Enabled>
+              <Index>0</Index>
+            </MatchRule>
+          </MatchRules>
+          <JsMatchRules />
+          <EnsureFound>false</EnsureFound>
+          <CacheElement>false</CacheElement>
+          <Locators />
+          <Locator>
+            <ID>647dc970-a1a1-4d8d-9b84-12dd1fdc0c31</ID>
+            <LocateBy>None</LocateBy>
+            <Value />
+          </Locator>
+          <MatchCriteria>Equals</MatchCriteria>
+          <BrowserType>Chrome</BrowserType>
+        </AutxObject>
+      </Items>
+      <RootPath>Global Objects</RootPath>
+    </AutxObject>
+    <AutxObject xsi:type="UTL.RPA.CONNECTORS.AutxMicrosoftExcel">
+      <ID>f0825132-6e05-45df-8eff-e94c6fc66b1a</ID>
+      <Name>Dollar Price</Name>
+      <ProcessID>c32c5f81-d37d-4faf-a1ef-5ed81eb7a4dc</ProcessID>
+      <IsRemoteExecutionEnabled>false</IsRemoteExecutionEnabled>
+      <IsolationPlatform>x86</IsolationPlatform>
+      <IsolationSessionType>Current</IsolationSessionType>
+      <Items />
+      <RootPath>Global Objects</RootPath>
+    </AutxObject>
+  </Variables>
+  <Name>ChromeAuto</Name>
+  <Description>Automação com Chrome.</Description>
+  <CreatedBy>Lora\Chris&amp;Lora</CreatedBy>
+  <ModifiedBy>Lora\Chris&amp;Lora</ModifiedBy>
+  <CreatedAt>2024-12-02T16:57:40.7754067-03:00</CreatedAt>
+  <ModifiedAt>2024-12-02T16:57:40.7754067-03:00</ModifiedAt>
+  <SignedAt />
+  <Version>0</Version>
+  <StartupActivityID>c77db6e2-1d3f-416a-9d54-568c93718d83</StartupActivityID>
+</AutxProcess>
